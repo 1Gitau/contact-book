@@ -1,5 +1,4 @@
-
-import { create } from 'zustand';
+import { create } from "zustand";
 
 const useContactStore = create((set) => ({
   contacts: [],
@@ -14,7 +13,9 @@ const useContactStore = create((set) => ({
   disableContact: (id) =>
     set((state) => ({
       contacts: state.contacts.map((contact) =>
-        contact.id === id ? { ...contact, disabled: !contact.disabled } : contact
+        contact.id === id
+          ? { ...contact, disabled: !contact.disabled }
+          : contact,
       ),
     })),
 }));
