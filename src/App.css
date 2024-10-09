@@ -33,12 +33,15 @@ h1 {
 
 .contact-form input {
   padding: 10px;
-  margin: 0 5px 10px 5px;
+  /* margin: 0 5px 10px 5px; */
   width: 150px;
   border-radius: 5px;
-  border: 1px solid crimson;
-  gap: 2rem;
+  /* border: 1px solid crimson; */
+  /* gap: 2rem; */
   font-weight: 500;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .contact-form button {

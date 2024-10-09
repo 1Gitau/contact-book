@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useContactStore from "./store/contactStore";
+import useContactStore from "./store/ContactStore";
 import "./App.css";
 
 const App = () => {
